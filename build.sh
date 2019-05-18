@@ -9,11 +9,11 @@ if [ -z ${commit} ]; then
 fi
 
 # Remove old release
-rm -rf FroshPerformance FroshPerformance-*.zip
+rm -rf FroshPlatformPerformance FroshPlatformPerformance-*.zip
 
 # Build new release
-mkdir -p FroshPerformance
-git archive ${commit} | tar -x -C FroshPerformance
-composer install --no-dev -n -o -d FroshPerformance
-( find ./FroshPerformance -type d -name ".git" && find ./FroshPerformance -name ".gitignore" && find ./FroshPerformance -name ".gitmodules" ) | xargs rm -r
-zip -r FroshPerformance-${commit}.zip FroshPerformance
+mkdir -p FroshPlatformPerformance
+git archive ${commit} | tar -x -C FroshPlatformPerformance
+composer install --no-dev -n -o -d FroshPlatformPerformance
+( find ./FroshPlatformPerformance -type d -name ".git" && find ./FroshPlatformPerformance -name ".gitignore" && find ./FroshPlatformPerformance -name ".gitmodules" ) | xargs rm -r
+zip -r FroshPlatformPerformance-${commit}.zip FroshPlatformPerformance
