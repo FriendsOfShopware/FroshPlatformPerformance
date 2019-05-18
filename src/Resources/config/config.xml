@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title lang="de-DE">Performance Optimierungen</title>
+        <title>Performance Improvements</title>
+        <input-field type="bool">
+            <name>enableMinify</name>
+            <label lang="de-DE">HTML Minifizieren</label>
+            <label>Minify HTML</label>
+        </input-field>
+
+        <input-field type="bool">
+            <name>http2Push</name>
+            <label lang="de-DE">CSS und JS Dateien via HTTP2 pushen</label>
+            <label>Push CSS and JS Files with HTTP2 Push</label>
+        </input-field>
+    </card>
+</config>
