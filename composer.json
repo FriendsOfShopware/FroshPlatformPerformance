@@ -1,5 +1,6 @@
 {
-    "name": "frosh/performance",
+    "name": "frosh/platform-performance",
+    "version": "1.0.0",
     "type": "shopware-platform-plugin",
     "keywords": ["shopware", "performance", "minify", "http2"],
     "description": "Performance improvements for Shopware",
@@ -15,6 +16,10 @@
         "label": {
             "de-DE": "Performance Optimierungen",
             "en-GB": "Performance Improvements"
+        },
+        "description": {
+            "de-DE": "Komprimiert HTML, erlaubt die Nutzung mit HTTP2 Push",
+            "en-GB": "Minify HTML output, Allow pushing resources using HTTP2 Push"
         }
     },
     "require": {
