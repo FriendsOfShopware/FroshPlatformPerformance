@@ -5,6 +5,12 @@
     "keywords": ["shopware", "performance", "minify", "http2"],
     "description": "Performance improvements for Shopware",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "FriendsOfShopware",
+            "homepage": "https://friendsofshopware.de"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Frosh\\Performance\\": "src/"
