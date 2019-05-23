@@ -17,7 +17,7 @@
         }
     },
     "extra": {
-        "shopware-plugin-class": "Frosh\\Performance\\Performance",
+        "shopware-plugin-class": "Frosh\\Performance\\FroshPlatformPerformance",
         "copyright": "FriendsOfShopware",
         "label": {
             "de-DE": "Performance Optimierungen",
