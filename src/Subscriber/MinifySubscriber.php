@@ -32,7 +32,7 @@ class MinifySubscriber implements EventSubscriberInterface
             return;
         }
 
-        if (!$this->systemConfigService->get('Performance.config.enableMinify')) {
+        if (!$this->systemConfigService->get('FroshPlatformPerformance.config.enableMinify')) {
             return;
         }
 
