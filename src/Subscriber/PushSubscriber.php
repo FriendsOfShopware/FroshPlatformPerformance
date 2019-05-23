@@ -43,7 +43,7 @@ class PushSubscriber implements EventSubscriberInterface
             return;
         }
 
-        if (!$this->systemConfigService->get('Performance.config.http2Push')) {
+        if (!$this->systemConfigService->get('FroshPlatformPerformance.config.http2Push')) {
             return;
         }
 
